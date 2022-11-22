@@ -1,0 +1,9 @@
+# ~/ => "C:\Pearlabyss\BlackDesert\"
+def check_version():
+	ads_version = $(cat ~/ads_version)
+	patcher_version = $(cat ~/patcher_version)
+
+
+def check_config.ini():
+	data_config.ini = $(cat ~/config.ini)
+
